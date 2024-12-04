@@ -79,13 +79,13 @@ export default function Home() {
 
       {/* About us content */}
       <div className="flex justify-center items-center h-fit mb-[6rem] flex-col px-4">
-        <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
+        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
           Energy Healing is a No Touch, No Drug Healing Therapy for Body, Mind and Soul.
         </p>
-        <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
+        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
           It is an advance system of Ancient Ayurveda treating all 5 koshas thereby healing physical ailments as well as emotional and psychological disorders.
         </p>
-        <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-[3rem]">
+        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-[3rem]">
           By managing the energy system various ailments can be treated
           <li>CANCER, CHEMOTHERAPY SIDE EFFECT</li>
           <li>OCD (Obsessive Compulsive Disorder)</li>
@@ -109,7 +109,7 @@ export default function Home() {
           <li>Relationship Issues</li>
         </p>
         <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             <Link href='/aboutUs'>Learn more →</Link>
           </button>
         </p>

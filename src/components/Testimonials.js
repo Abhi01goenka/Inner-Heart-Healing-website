@@ -3,7 +3,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const Testimonials = () => {
     return (
-        <div className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+        <div className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased mt-[5rem]">
             <h1 className="text-4xl font-semibold dark:text-white h-[4rem]">
                 Testimonials
             </h1>
@@ -19,7 +19,7 @@ const Testimonials = () => {
                         </div>
                         <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                             <h3 className="text-2xl font-bold">OUR PRIME MINISTER ON AURA SCIENCE</h3>
-                            <p className="text-gray-700 text-justify">
+                            <p className="text-gray-700 text-justify w-[40vw]">
                                 Our prime minister speech in AIIMS about AURA scanning and energy healing technology.
                             </p>
                             {/* <p className="text-sm text-gray-500">- John Doe</p> */}
@@ -36,7 +36,7 @@ const Testimonials = () => {
                         </div>
                         <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                             <h3 className="text-2xl font-bold">TESTIMONIAL FOR SPINAL HERNIATED DISC</h3>
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 text-justify pr-[4rem] w-[40vw]">
                                 Of late, we are receiving many cases of herniated disc and sciatica in which the patient feels extreme pain in day-to-day work. This occurs mostly due to prolong stress and wrong postures leading to the gradual degeneration of the vertabral disc. YPV Healing with meditation from 15 days to few months may regenerate the vertabrae and destress the inner bodies. The healing sessions may be integrated with physiotherapy and medicine.
                             </p>
                             {/* <p className="text-sm text-gray-500">- Jane Smith</p> */}
@@ -53,7 +53,7 @@ const Testimonials = () => {
                         </div>
                         <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                             <h3 className="text-2xl font-bold">THROAT INFECTION HEALING</h3>
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 text-justify w-[40vw]">
                                 Throat is an area of thinking and is linked to planning and execution.
 
                                 Due to excessive thinking mind, embalmed with fear, doubts, pessimism, sadness ,
@@ -82,7 +82,7 @@ const Testimonials = () => {
                         </div>
                         <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                             <h3 className="text-2xl font-bold">HEALING TESTIMONIAL IN MULTIPLE AILMENTS</h3>
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 text-justify pr-[4rem] w-[40vw]">
                                 All ailments are related to the disturbance of inner emotional and mental vehicles. Long-term relationship issues, anger, hatred due to family situations, pent-up emotions may result in multiple issues in the long run. Yoga Prana Vidya healing cleanses the inner bodies of all negative energies and facilitates the flow of prana thus, normalizing the physical body. The therapy takes 15 days to few months.
                             </p>
                             {/* <p className="text-sm text-gray-500">- Jane Smith</p> */}

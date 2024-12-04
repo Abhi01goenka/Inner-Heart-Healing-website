@@ -52,7 +52,8 @@ const links = [
         icon: (
             <IconStars className="h-full w-full" />
         ),
-        href: "/testimonials"
+        href: "/testimonials",
+        target: ""
     },
     {
         title: "Blog",

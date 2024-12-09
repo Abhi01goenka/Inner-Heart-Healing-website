@@ -37,12 +37,12 @@ const FloatingDockMobile = ({
 }) => {
     const [open, setOpen] = useState(false);
     return (
-        <div className={cn("fixed bottom-0 right-0 m-4 md:hidden", className)}>
+        <div className={cn("fixed bottom-0 right-0 m-4 md:hidden z-[1000]", className)}>
             <AnimatePresence>
                 {open && (
                     <motion.div
                         layoutId="nav"
-                        className="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-2"
+                        className="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-2 z-[1000]"
                     >
                         {items.map((item, idx) => (
                             <motion.div
@@ -65,7 +65,7 @@ const FloatingDockMobile = ({
                                     href={item.href}
                                     key={item.title}
                                     target={item.target}
-                                    className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+                                    className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center z-[1000]"
                                 >
                                     <div className="h-4 w-4">{item.icon}</div>
                                 </Link>
@@ -76,7 +76,7 @@ const FloatingDockMobile = ({
             </AnimatePresence>
             <button
                 onClick={() => setOpen(!open)}
-                className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center"
+                className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center z-[1000]"
             >
                 <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
             </button>
@@ -97,7 +97,7 @@ const FloatingDockDesktop = ({
             onMouseMove={(e) => mouseX.set(e.pageX)}
             onMouseLeave={() => mouseX.set(Infinity)}
             className={cn(
-                "fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-4 md:flex h-16 gap-4 items-end bg-transparent backdrop-blur-sm rounded-2xl px-4 pb-3 z-[100]",
+                "fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-4 md:flex h-16 gap-4 items-end bg-transparent backdrop-blur-sm rounded-2xl px-4 pb-3 z-[1000]",
                 className
             )}
         >
@@ -178,7 +178,7 @@ function IconContainer({
                             initial={{ opacity: 0, y: 10, x: "-50%" }}
                             animate={{ opacity: 1, y: 0, x: "-50%" }}
                             exit={{ opacity: 0, y: 2, x: "-50%" }}
-                            className="px-2 py-0.5 whitespace-pre rounded-md bg-gray-100 border dark:bg-neutral-800 dark:border-neutral-900 dark:text-white border-gray-200 text-neutral-700 absolute left-1/2 -translate-x-1/2 -top-8 w-fit text-xs"
+                            className="px-2 py-0.5 whitespace-pre rounded-md bg-gray-100 border dark:bg-neutral-800 dark:border-neutral-900 dark:text-white border-gray-200 text-neutral-700 absolute left-1/2 -translate-x-1/2 -top-8 w-fit text-xs z-[100]"
                         >
                             {title}
                         </motion.div>

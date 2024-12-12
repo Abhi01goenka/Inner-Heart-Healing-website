@@ -76,7 +76,7 @@ const links = [
         icon: (
             <IconCalendarEvent className="h-full w-full" />
         ),
-        href: "upcomingEvents",
+        href: "/upcomingEvents",
         target: ""
     },
 

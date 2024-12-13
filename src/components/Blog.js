@@ -1,6 +1,22 @@
 export const blogs = [
     // Add more blog data here
     {
+        id: 51,
+        title: "RELATIONSHIP HEALING USING YOGA PRANA VIDYA (YPV) HEALING PROTOCOLS: AN IN-DEPTH CASE STUDY",
+        date: "13 December 2024",
+        image: "",
+        description: "",
+        link: "/blog/relationship-healing-using-yoga-prana-vidya-healing-protocols",
+    },
+    {
+        id: 50,
+        title: "ATOPIC DERMATITIS (ECZEMA): SUCCESSFUL ENERGY HEALING TREATMENT USING YOGA PRANA VIDYA (YPV) PROTOCOLS AS ALTERNATIVE MEDICINE",
+        date: "13 December 2024",
+        image: "",
+        description: "",
+        link: "/blog/atopic-dermatitis-successful-energy-healing-treatment-using-yoga-prana-vidya",
+    },
+    {
         id: 49,
         title: "Fusion of Modern Cardiac care with Ancient Prana Healing",
         date: "8 November 2024",

@@ -14,7 +14,7 @@ export default function AboutUs() {
                 <div className="max-w-7xl">
                     <video
                         controls
-                        className="w-[90vw] h-[95vh] rounded-lg shadow-lg object-cover"
+                        className="w-[90vw] rounded-lg shadow-lg object-cover"
                     >
                         <source src="/videos/about-us.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
@@ -87,7 +87,7 @@ export default function AboutUs() {
                             </div>
                             <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">ENERGY HEALINGS IN COVID PATIENTS</h3>
-                                <p className="text-neutral-400 text-justify w-[40vw]">
+                                <p className="text-neutral-400 text-justify w-[40vw] md:w-full">
                                     Energy healing brings great opportunity to build up fast immunity to souls of all age by purification of all vehicles and increasing vibrations of mental emotional bodies thereby imparting immediate peace and serenity to a stressed soul.
 
                                     Immune system is generally lowered by faulty lifestyle which includes junk food, anger, fear leading to decreased blood supply in internal organs and increased aging of cells.
@@ -124,7 +124,7 @@ export default function AboutUs() {
                             </div>
                             <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">ENERGY HEALINGS IN PSYCHOLOGICAL STRESS CONDITIONS</h3>
-                                <p className="text-neutral-400 pr-[2rem] text-justify w-[40vw]">
+                                <p className="text-neutral-400 pr-[2rem] text-justify w-[40vw] md:w-full">
                                     Due to stress environment many persons often fall physically or mentally ill. Negative emotions like violence, hatred, anger, non forgiveness manifest in speech and action. Negative thoughts like worries, doubt, fear, pessimism, sadness manifest as illness. Often personal and official relationship is affected. Taking sedatives, antidepressant drugs, sleeping pills has negative effect on brain and consciousness. Energy healing and meditation (yoga prana vidya app) are effective remedies to return to normal within few days or months.
                                 </p>
                                 {/* <p className="text-sm text-gray-500">- Jane Smith</p> */}

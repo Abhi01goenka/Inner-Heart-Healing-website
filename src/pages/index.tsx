@@ -147,7 +147,7 @@ export default function Home() {
             {/* sg div */}
             <div className="w-[24.5rem] place-items-center">
               <Image
-                src={`/sg1.jpeg`}
+                src={`/sg2.jpeg`}
                 alt="Sonia Goenka"
                 height="200"
                 width="200"

@@ -5,7 +5,7 @@ export default function Omicron() {
                 {/* Heading */}
                 <h1 className="text-4xl font-bold text-center mt-[2rem]">The Case of Omicron Corona Variant</h1>
 
-                {/* Video Section */}
+                {/* Picture Section */}
                 <div className="max-w-7xl">
                     <img src="/Omicron.webp" alt="Omicron" className="rounded-lg shadow-lg w-[90vw]" />
                 </div>

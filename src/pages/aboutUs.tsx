@@ -15,8 +15,9 @@ export default function AboutUs() {
                     <video
                         controls
                         className="w-[90vw] rounded-lg shadow-lg object-cover"
+                        poster="/videos/about_us_video_thumbnail.png"
                     >
-                        <source src="/videos/about-us.mp4" type="video/mp4" />
+                        <source src="/videos/about_us_video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

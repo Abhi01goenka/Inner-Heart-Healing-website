@@ -13,7 +13,7 @@ const Testimonials = () => {
                     <div className="flex flex-col md:flex-row items-center md:space-x-6">
                         <div className="w-full md:w-1/2">
                             <video controls className="rounded-lg shadow-lg w-full">
-                                <source src="/videos/video1.mp4" type="video/mp4" />
+                                <source src="/videos/pm_speech.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>

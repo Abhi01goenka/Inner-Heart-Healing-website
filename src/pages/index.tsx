@@ -14,7 +14,7 @@ import { IconArrowDown } from "@tabler/icons-react";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { about_pg, about_sg } from "@/components/about_us_content"
-import Testimonials from "@/components/testimonials"
+import Testimonials from "@/components/Testimonials"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

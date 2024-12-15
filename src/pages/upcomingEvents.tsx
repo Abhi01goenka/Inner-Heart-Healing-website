@@ -1,5 +1,5 @@
 import React from "react";
-import { events } from "@/components/events";
+import { events } from "@/components/Events";
 
 const UpcomingEvents = () => {
     return (

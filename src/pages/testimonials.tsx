@@ -1,5 +1,5 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
-import { testimonials } from "@/components/Testimonials-testimonials";
+import { testimonials } from "@/components/testimonials-testimonials";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "framer-motion";

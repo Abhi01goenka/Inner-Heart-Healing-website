@@ -1,4 +1,4 @@
-import Carousel from "@/components/Carousel"
+import Carousel from "@/components/carousel"
 import React from "react";
 import ReactPlayer from "react-player";
 

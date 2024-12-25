@@ -5,8 +5,8 @@ export default function Services() {
         <>
             {/* Intro section */}
             <div className="relative flex flex-col items-center">
-                <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
-                    <h2 className="bg-clip-text text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight text-neutral-200">
+                <BackgroundLines className="min-h-screen flex items-center justify-center w-full flex-col px-4">
+                    <h2 className="bg-clip-text text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight text-neutral-200">
                         Virtual Visits / Healing Centre Visits Available!
                     </h2>
                     <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-300 dark:text-neutral-400 text-center">
@@ -28,9 +28,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-1.jpg" alt="Service 1" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Preventive Healings</h3>
-                                <p className="text-gray-400 text-justify w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     We offer a fortnight session of energy healing to susceptible patients for improving their immune system and prevent disease before they physicalize during seasonal variations.
                                 </p>
                             </div>
@@ -41,9 +41,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-2.jpg" alt="Service 2" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Curative Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     Energy Healing can cure  all health ailments ranging from common cold, asthma, hyper-tension gastrointestinal ailments, cysts, stones, etc without drugs.
                                 </p>
                             </div>
@@ -54,9 +54,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-3.jpeg" alt="Service 3" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Direct Healings</h3>
-                                <p className="text-gray-400 text-justify w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     A healing practitioner utilizes multiple energy techniques to treat the entire body affected by chronic and acute diseases, rather than managing or suppressing them. Direct healing is given to all patients who visit the healing centre.
                                 </p>
                             </div>
@@ -67,9 +67,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-4.jpg" alt="Service 4" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Distance Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     Today we all can interact with each other through mobiles and internet...
                                     Yesterday what was a dream, today has become a reality in action.
 
@@ -89,12 +89,12 @@ export default function Services() {
 
                         {/* Service 5 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2">
                                 <img src="/service-image-5.jpg" alt="Service 5" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Relationship Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[4rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     Relationship healing are given in case of Mental Emotional stress between two or more people- official or personal.
                                     This service can be given to family conflicts , business  conflicts , divorce situations, Extra marital affairs etc.
                                 </p>
@@ -106,9 +106,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-6.jpeg" alt="Service 6" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Infertility, Conception and Child Birth</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     Stress is major reason of infertility, delayed conception, Miscarriages in  couples.
 
                                     A  Monthly session of regular healings can bring conception miraculously without any IVF or higher techniques in earlier stages.
@@ -131,9 +131,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-7.jpeg" alt="Service 7" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Children Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[4rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     Frequent antibiotics,  low immunity, stress, anger, fear, OCD, school absentism, examination nervousness etc. can be easily treated in younger generations cause of their receptivity and younger bodies full of vitality.
                                     Even Hospitalized cases of emergency in children has better response rate  if integrated with healing.
                                 </p>
@@ -145,9 +145,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-8.jpeg" alt="Service 8" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Facial Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     A face of a person is mirror image of his heart.
                                     If stress in chakras and koshas are healed along with affected parts scars, spots, pimples, moles , swelling , redness  then a glowing face without wrinkles can be observed within few sessions.
                                     Facial healing is an art in itself.
@@ -160,9 +160,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-9.jpg" alt="Service 9" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Weight Loss healing</h3>
-                                <p className="text-gray-400 text-justify pr-[4rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     Addictions to junk food, over eating, excessive stess may result in over accumulation of excess fat in certain parts .
                                     Healing sessions with little diet control can transform  energy fat and cure addictions.
                                 </p>
@@ -174,9 +174,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-10.jpg" alt="Service 10" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Pre-Post Surgery Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     Many future surgeries can be prevented as  energies can regenerate organs to be operated or  removed.
                                     Healing given before ,during , after operations can enhance success rate, prevent blood loss, makes patient confident and lower fear and stress..
                                     Healing sessions can increase operated part to regenerate at much faster rate thereby increasing speedy recovery of patient. Healings are highly recommended in the case of fracture conditions.
@@ -189,9 +189,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-11.webp" alt="Service 11" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Sub-conscious Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[4rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify">
                                     Many deep impressions , traumatic pains, phobias from past lives in childhood often haunts a person subconscious mind.
                                     If unattended they may result in Psycho somatic ailments like migraine, asthma, OCD, AUTISM(ASD), ADHD , BIPOLAR SYNDROME.
                                     Such ailments can be successfully treated by Healing which gradually removes negative impressions/samscaras  from subconscious and regenerates brain
@@ -204,9 +204,9 @@ export default function Services() {
                             <div className="w-full md:w-1/2">
                                 <img src="/service-image-12.jpeg" alt="Service 10" className="rounded-lg shadow-lg w-full" />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">Animal Healings</h3>
-                                <p className="text-gray-400 text-justify pr-[2rem] w-[45vw]">
+                                <p className="text-gray-400 text-justify md:pr-[2rem]">
                                     Some of most miraculous cases were observed with our pets who are loving and receptive to energies.
                                     Energy healing can solve many untreatable cases including psychological pain and stress, depression,  injury , cancer etc. in animals.
                                 </p>

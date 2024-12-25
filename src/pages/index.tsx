@@ -45,7 +45,7 @@ export default function Home() {
           }}
           className="z-50 flex flex-col justify-center items-center"
         >
-          <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+          <motion.p className="font-bold text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
             The Inner Heart Healing Centre
           </motion.p>
           <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
@@ -71,7 +71,7 @@ export default function Home() {
             alt="hero"
             height={720}
             width={1400}
-            className="mx-auto rounded-2xl object-cover h-full object-left-top"
+            className="mx-auto rounded-2xl object-fit h-full object-left-top"
             draggable={false}
           />
         </ContainerScroll>
@@ -108,7 +108,7 @@ export default function Home() {
           <li>Fractures</li>
           <li>Relationship Issues</li>
         </p>
-        <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
+        <p className="text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
           <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             <Link href='/aboutUs'>Learn more →</Link>
           </button>
@@ -119,11 +119,11 @@ export default function Home() {
       <div className="relative flex flex-col items-center">
         <ShootingStars className="w-full h-full" />
         <StarsBackground className="w-full h-full" />
-        <h1 className="text-4xl font-semibold dark:text-white h-[1rem]">
+        <h1 className="text-4xl font-semibold text-white h-[1rem]">
           Meet the Team
         </h1>
         <div className="relative z-20 flex space-x-4 w-[60vw] min-h-screen justify-center items-center">
-          <BackgroundGradient className="rounded-[22px] flex w-[50rem] space-x-4 p-4 sm:p-10 bg-black dark:bg-zinc-900">
+          <BackgroundGradient className="rounded-[22px] flex w-[70vw] space-x-4 p-4 sm:p-10 bg-black">
             {/* pg div */}
             <div className="w-[25rem] place-items-center">
               <Image
@@ -133,11 +133,11 @@ export default function Home() {
                 width="200"
                 className="object-contain rounded-full"
               />
-              <p className="text-base sm:text-xl mt-4 mb-2 dark:text-neutral-200">
+              <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
                 Hr. Pradeep Goenka
               </p>
 
-              <p className="text-sm text-neutral-600 text-neutral-400">
+              <p className="text-sm text-neutral-400">
                 ASSOCIATE CERTIFIED YOGA PRANA VIDYA HEALER<br />
                 Adopted healing since 2008.
                 Successfully completed One-year Yoga Prana Vidya Intensive residential training program for higher healing competencies to treat psychosomatic ailments and service to humanity.
@@ -157,7 +157,7 @@ export default function Home() {
                 Hr. Sonia Goenka
               </p>
 
-              <p className="text-sm text-neutral-600 text-neutral-400">
+              <p className="text-sm text-neutral-400">
                 ASSOCIATE CERTIFIED YOGA PRANA VIDYA HEALER & SENIOR TRAINER
               </p>
             </div>

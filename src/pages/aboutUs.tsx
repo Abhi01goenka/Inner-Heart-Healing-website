@@ -24,7 +24,7 @@ export default function AboutUs() {
             </div>
 
             {/* Collage section */}
-            <div className="min-h-screen flex flex-col items-center justify-center space-y-8 px-4 pt-[2rem] pb-[2rem]">
+            <div className="flex flex-col items-center justify-center space-y-8 px-4 pt-[2rem] pb-[2rem]">
                 <div className="max-w-7xl">
                     <Carousel />
                 </div>
@@ -80,15 +80,15 @@ export default function AboutUs() {
                                 <ReactPlayer
                                     url="https://youtu.be/ULicb7aIBA4"
                                     width="100%"
-                                    height="40vh"
+                                    height="50vh"
                                     controls
                                     playing={false}
                                     loop={false}
                                 />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">ENERGY HEALINGS IN COVID PATIENTS</h3>
-                                <p className="text-neutral-400 text-justify w-[40vw] md:w-full">
+                                <p className="text-neutral-400 text-justify">
                                     Energy healing brings great opportunity to build up fast immunity to souls of all age by purification of all vehicles and increasing vibrations of mental emotional bodies thereby imparting immediate peace and serenity to a stressed soul.
 
                                     Immune system is generally lowered by faulty lifestyle which includes junk food, anger, fear leading to decreased blood supply in internal organs and increased aging of cells.
@@ -117,15 +117,15 @@ export default function AboutUs() {
                                 <ReactPlayer
                                     url="https://youtu.be/y8QrmVf97HA"
                                     width="100%"
-                                    height="45vh"
+                                    height="50vh"
                                     controls
                                     playing={false}
                                     loop={false}
                                 />
                             </div>
-                            <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                            <div className="md:w-1/2 text-center md:text-left space-y-4">
                                 <h3 className="text-2xl font-bold">ENERGY HEALINGS IN PSYCHOLOGICAL STRESS CONDITIONS</h3>
-                                <p className="text-neutral-400 pr-[2rem] text-justify w-[40vw] md:w-full">
+                                <p className="text-neutral-400 text-justify md:pr-[1rem]">
                                     Due to stress environment many persons often fall physically or mentally ill. Negative emotions like violence, hatred, anger, non forgiveness manifest in speech and action. Negative thoughts like worries, doubt, fear, pessimism, sadness manifest as illness. Often personal and official relationship is affected. Taking sedatives, antidepressant drugs, sleeping pills has negative effect on brain and consciousness. Energy healing and meditation (yoga prana vidya app) are effective remedies to return to normal within few days or months.
                                 </p>
                                 {/* <p className="text-sm text-gray-500">- Jane Smith</p> */}

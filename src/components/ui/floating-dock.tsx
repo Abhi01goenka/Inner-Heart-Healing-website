@@ -36,6 +36,7 @@ const FloatingDockMobile = ({
     className?: string;
 }) => {
     const [open, setOpen] = useState(false);
+    const handleClose = () => setOpen(false);
     return (
         <div className={cn("fixed bottom-0 right-0 m-4 md:hidden z-[1000]", className)}>
             <AnimatePresence>
@@ -66,6 +67,7 @@ const FloatingDockMobile = ({
                                     key={item.title}
                                     target={item.target}
                                     className="h-10 w-10 rounded-full bg-gray-50 bg-neutral-900 flex items-center justify-center z-[1000]"
+                                    onClick={handleClose}
                                 >
                                     <div className="h-4 w-4">{item.icon}</div>
                                 </Link>

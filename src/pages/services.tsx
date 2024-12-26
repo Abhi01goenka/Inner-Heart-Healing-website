@@ -227,7 +227,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -250,7 +250,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -273,7 +273,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -299,7 +299,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -326,7 +326,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -349,7 +349,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -372,7 +372,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =
@@ -398,7 +398,7 @@ export default function Services() {
                             <button
                                 className="w-full flex justify-between items-center p-4 bg-neutral-900 hover:bg-neutral-800 text-left text-white font-medium focus:outline-none"
                                 onClick={(e) => {
-                                    const target = e.target as HTMLElement;
+                                    const target = e.currentTarget as HTMLElement;
                                     const content = target.nextElementSibling as HTMLElement;
                                     if (content) {
                                         content.style.display =

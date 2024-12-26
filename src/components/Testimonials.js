@@ -4,7 +4,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 const Testimonials = () => {
     return (
         <div className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased mt-[5rem]">
-            <h1 className="text-4xl font-semibold dark:text-white h-[4rem]">
+            <h1 className="text-4xl font-semibold text-white h-[4rem]">
                 Testimonials
             </h1>
             <section className="py-10">
@@ -29,7 +29,7 @@ const Testimonials = () => {
                     {/* Testimonial 2 */}
                     <div className="flex flex-col md:flex-row-reverse items-center space-x-6">
                         <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-[40vw] h-[80vh] md:w-full">
+                            <video controls className="rounded-lg shadow-lg w-[40vw] md:h-[80vh] md:w-full">
                                 <source src="/videos/index_testimonial2.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
@@ -75,7 +75,7 @@ const Testimonials = () => {
                     {/* Testimonial 4 */}
                     <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
                         <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-[40vw] h-[80vh] md:w-full">
+                            <video controls className="rounded-lg shadow-lg w-[40vw] md:h-[80vh] md:w-full">
                                 <source src="/videos/index_testimonial4.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
@@ -92,7 +92,7 @@ const Testimonials = () => {
                     {/* Testimonial 5 */}
                     <div className="flex flex-col md:flex-row items-center md:space-x-6">
                         <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-[40vw] h-[80vh] md:w-full">
+                            <video controls className="rounded-lg shadow-lg w-[40vw] md:h-[80vh] md:w-full pb-[1rem]">
                                 <source src="/videos/index_testimonial5.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
@@ -106,7 +106,7 @@ const Testimonials = () => {
                     {/* Testimonial 6 */}
                     <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
                         <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-full" poster="/videos/index_testimonial6_thumbnail.png">
+                            <video controls className="rounded-lg shadow-lg w-full pb-[1rem]" poster="/videos/index_testimonial6_thumbnail.png">
                                 <source src="/videos/index_testimonial6.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
@@ -120,7 +120,7 @@ const Testimonials = () => {
                     {/* Testimonial 7 */}
                     <div className="flex flex-col md:flex-row items-center md:space-x-6">
                         <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-full">
+                            <video controls className="rounded-lg shadow-lg w-full pb-[1rem]">
                                 <source src="/videos/video1.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>

@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 export default function Carousel() {
     return (
-        <div className="w-[90vw] h-[95vh] rounded-lg shadow-lg object-cover">
+        <div className="w-[90vw] md:h-[95vh] rounded-lg shadow-lg object-cover">
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]} // Add Navigation module
                 autoplay={{

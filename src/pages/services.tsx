@@ -6,10 +6,10 @@ export default function Services() {
             {/* Intro section */}
             <div className="relative flex flex-col items-center">
                 <BackgroundLines className="min-h-screen flex items-center justify-center w-full flex-col px-4">
-                    <h2 className="bg-clip-text text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight text-neutral-200">
+                    <h2 className="bg-clip-text text-center bg-gradient-to-b from-neutral-900 to-neutral-700 from-neutral-600 to-white text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight text-neutral-200">
                         Virtual Visits / Healing Centre Visits Available!
                     </h2>
-                    <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-300 dark:text-neutral-400 text-center">
+                    <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-300 text-neutral-400 text-center">
                         We are offering direct healing to patients for a period of 15 days or more.
                         Distance / Virtual healings are available to hospitalized / ICU / immobile patients.
                     </p>
@@ -18,14 +18,14 @@ export default function Services() {
 
             {/* Services */}
             <div className="h-full w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased mt-[5rem]">
-                <h1 className="text-4xl font-semibold dark:text-white h-[4rem]">
+                <h1 className="text-4xl font-semibold text-white h-[4rem]">
                     Our Services
                 </h1>
                 <section className="py-10">
                     <div className="container mx-auto bg-black px-4 space-y-12">
                         {/* Service 1 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-1.jpg" alt="Service 1" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -38,7 +38,7 @@ export default function Services() {
 
                         {/* Service 2 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-2.jpg" alt="Service 2" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -51,7 +51,7 @@ export default function Services() {
 
                         {/* Service 3 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-3.jpeg" alt="Service 3" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -64,7 +64,7 @@ export default function Services() {
 
                         {/* Service 4 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-4.jpg" alt="Service 4" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -89,7 +89,7 @@ export default function Services() {
 
                         {/* Service 5 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-5.jpg" alt="Service 5" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
@@ -103,7 +103,7 @@ export default function Services() {
 
                         {/* Service 6 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-6.jpeg" alt="Service 6" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -128,7 +128,7 @@ export default function Services() {
 
                         {/* Service 7 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-7.jpeg" alt="Service 7" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -142,7 +142,7 @@ export default function Services() {
 
                         {/* Service 8 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-8.jpeg" alt="Service 8" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -157,7 +157,7 @@ export default function Services() {
 
                         {/* Service 9 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-9.jpg" alt="Service 9" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -171,7 +171,7 @@ export default function Services() {
 
                         {/* Service 10 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-10.jpg" alt="Service 10" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -186,7 +186,7 @@ export default function Services() {
 
                         {/* Service 11 */}
                         <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-11.webp" alt="Service 11" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">
@@ -201,7 +201,7 @@ export default function Services() {
 
                         {/* Service 12 */}
                         <div className="flex flex-col md:flex-row-reverse items-center md:space-x-6">
-                            <div className="w-full md:w-1/2">
+                            <div className="md:w-1/2 mb-[1rem]">
                                 <img src="/service-image-12.jpeg" alt="Service 10" className="rounded-lg shadow-lg w-full" />
                             </div>
                             <div className="md:w-1/2 text-center md:text-left space-y-4">

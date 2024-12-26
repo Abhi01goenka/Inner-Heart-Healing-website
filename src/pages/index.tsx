@@ -60,7 +60,7 @@ export default function Home() {
         <ContainerScroll
           titleComponent={
             <>
-              <h1 className="text-4xl font-semibold dark:text-white h-[5rem]">
+              <h1 className="text-4xl font-semibold text-white h-[5rem]">
                 About Us
               </h1>
             </>
@@ -79,13 +79,13 @@ export default function Home() {
 
       {/* About us content */}
       <div className="flex justify-center items-center h-fit mb-[6rem] flex-col px-4">
-        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
+        <p className="text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
           Energy Healing is a No Touch, No Drug Healing Therapy for Body, Mind and Soul.
         </p>
-        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
+        <p className="text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
           It is an advance system of Ancient Ayurveda treating all 5 koshas thereby healing physical ailments as well as emotional and psychological disorders.
         </p>
-        <p className="dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-[3rem]">
+        <p className="text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-[3rem]">
           By managing the energy system various ailments can be treated
           <li>CANCER, CHEMOTHERAPY SIDE EFFECT</li>
           <li>OCD (Obsessive Compulsive Disorder)</li>
@@ -153,7 +153,7 @@ export default function Home() {
                 width="200"
                 className="object-contain rounded-full"
               />
-              <p className="text-base sm:text-xl mt-4 mb-2 dark:text-neutral-200">
+              <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200">
                 Hr. Sonia Goenka
               </p>
 

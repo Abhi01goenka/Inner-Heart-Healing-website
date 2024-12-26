@@ -155,7 +155,7 @@ export default function coursesOffered() {
                     {/* Image Section */}
                     <div className="md:w-1/2 order-1 md:order-2">
                         <img
-                            src="/YPV-with-Crystals.jpeg"
+                            src="/YPV-with-crystals.jpeg"
                             alt="YPV-with-Crystals"
                             className="rounded-lg shadow-lg w-full object-contain max-h-[400px]"
                         />

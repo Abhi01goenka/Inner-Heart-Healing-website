@@ -117,20 +117,6 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    {/* Testimonial 7 */}
-                    <div className="flex flex-col md:flex-row items-center md:space-x-6">
-                        <div className="md:w-1/2">
-                            <video controls className="rounded-lg shadow-lg w-full pb-[1rem]">
-                                <source src="/videos/video1.mp4" type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div className="md:w-1/2 text-center md:text-left space-y-4">
-                            <h3 className="text-2xl font-bold">COVID HOSPITALIZATION CASE</h3>
-                            {/* <p className="text-sm text-gray-500">- John Doe</p> */}
-                        </div>
-                    </div>
-
                 </div>
             </section>
             <div />
